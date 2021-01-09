@@ -4,7 +4,6 @@
     "keywords": ["sylius", "sylius-plugin"],
     "description": "Allow customers to contact you using Whatsapp",
     "license": "MIT",
-    "version" : "1.0",
     "authors": [
         {
             "name": "Dmitry Berezhnov",
