@@ -4,6 +4,13 @@
     "keywords": ["sylius", "sylius-plugin"],
     "description": "Allow customers to contact you using Whatsapp.",
     "license": "MIT",
+    "version" : "1.0.0",
+    "authors": [
+        {
+            "name": "Dmitry Berezhnov",
+            "email": "bereg.dmit@gmail.com"
+        }
+    ],
     "require": {
         "php": "~7.2, <7.4",
         "sylius/sylius": "~1.3",
