@@ -88,7 +88,6 @@ class Message implements ResourceInterface, TimestampableInterface, ToggleableIn
      */
     public function __construct()
     {
-        $this->initializeTranslationsCollection();
         $this->channels = new ArrayCollection();
     }
 
