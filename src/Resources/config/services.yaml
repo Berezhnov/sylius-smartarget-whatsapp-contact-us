@@ -28,7 +28,7 @@ services:
     tags:
       - { name: form.type }
     arguments:
-      - '%smartarget_smartarget_whatsapp_contact_us.model.message.class%'
+      - '%smartarget_sylius_smartarget_whatsapp_contact_us.model.message.class%'
 
   # Front
   smartarget_smartarget_whatsapp_contact_us.block_event_listener.layout.before_body:
