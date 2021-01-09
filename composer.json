@@ -2,7 +2,7 @@
     "name": "smartarget/sylius-smartarget-whatsapp-contact-us-plugin",
     "type": "sylius-plugin",
     "keywords": ["sylius", "sylius-plugin"],
-    "description": "Allow customers to contact you using Whatsapp.",
+    "description": "Allow customers to contact you using Whatsapp",
     "license": "MIT",
     "version" : "1.0.0",
     "authors": [
