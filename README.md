@@ -44,6 +44,12 @@ This plugin adds Whatsapp button on your sylius website. You can configure whats
     ./bin/console doctrine:migration:migrate
     ```
 
+5. Clear cache
+
+    ```bash
+    bin/console cache:clear
+    ```
+
 ## How it works
 
 Go to Whatsapp - Contact Us section in your admin panel and add new Whatsapp button(s)! Don't forget to enable new Whatsapp button and toggle specific sales chanel.
@@ -56,3 +62,7 @@ You could use this plugin to:
 - Doing customers support.
 
 Use Smartarget Integration to change button position and popup message.
+
+## Support
+
+For any questions visit https://smartarget.online/page_contact.html
