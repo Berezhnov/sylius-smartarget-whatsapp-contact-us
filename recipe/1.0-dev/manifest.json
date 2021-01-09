@@ -1,6 +1,6 @@
 {
     "bundles": {
-        "Smartarget\\SyliusSmartargetWhatsappContactUsPlugin\\": [
+        "Smartarget\\SyliusSmartargetWhatsappContactUsPlugin\\SmartargetSyliusSmartargetWhatsappContactUsPlugin": [
             "all"
         ]
     },
