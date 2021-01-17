@@ -61,30 +61,4 @@ final class MessageBlock extends Block
         );
     }
 
-    /**
-     * @param Message $message
-     *
-     * @return bool
-     */
-    public function canDisplayMessage(Message $message): bool
-    {
-        return
-            !$message->isCustomersOnly()
-            || null !== $this->customerContext->getCustomer()
-        ;
-    }
-
-    /**
-     * @param Message $message
-     *
-     * @return string|null
-     */
-    public function formatMessageWithTemplate(Message $message): ?string
-    {
-        $template = $message->getTemplateHtml();
-        $template = preg_replace('`{{\s*title\s*}}`i', $message->getTitle(), $template);
-        $template = preg_replace('`{{\s*message\s*}}`i', $message->getMessage(), $template);
-        return $template;
-    }
-
 }
