@@ -41,12 +41,6 @@ class Message implements ResourceInterface, TimestampableInterface, ToggleableIn
     protected $enabled = true;
 
     /**
-     * @var bool
-     * @ORM\Column(name="customers_only", type="boolean", options={"default": false})
-     */
-    protected $customersOnly = false;
-
-    /**
      * @var string|null
      * @ORM\Column(type="string")
      */
@@ -97,22 +91,6 @@ class Message implements ResourceInterface, TimestampableInterface, ToggleableIn
     public function getId(): ?int
     {
         return $this->id;
-    }
-
-    /**
-     * @return bool
-     */
-    public function isCustomersOnly(): bool
-    {
-        return $this->customersOnly;
-    }
-
-    /**
-     * @param bool $customersOnly
-     */
-    public function setCustomersOnly(bool $customersOnly): void
-    {
-        $this->customersOnly = $customersOnly;
     }
 
     /**

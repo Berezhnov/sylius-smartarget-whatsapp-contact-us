@@ -8,7 +8,6 @@ smartarget_smartarget_whatsapp_contact_us:
         no_label: No
         form:
             enabled: Enabled
-            customers_only: Logged-in customers only
             phoneNumber: Phone Number
             smartargetUserId: Smartarget User Id
             channels: Channels

@@ -19,7 +19,7 @@ This plugin adds Whatsapp button on your sylius website. You can configure whats
 1. Require the plugin using composer
 
     ```bash
-    composer require smartarget/sylius-smartarget-whatsapp-contact-us-plugin
+    composer require smartarget/sylius-smartarget-whatsapp-contact-us-plugin --no-scripts
     ```
 
 2. Create config/packages/smartarget_sylius_smartarget_whatsapp_contact_us_plugin.yaml file with content

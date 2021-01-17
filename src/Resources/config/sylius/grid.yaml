@@ -18,11 +18,6 @@ sylius_grid:
           label: smartarget_smartarget_whatsapp_contact_us.ui.form.enabled
           options:
             template: SyliusUiBundle:Grid/Field:enabled.html.twig
-        customersOnly:
-          type: twig
-          label: smartarget_smartarget_whatsapp_contact_us.ui.form.customers_only
-          options:
-            template: SmartargetSyliusSmartargetWhatsappContactUsPlugin:Grid/Field:customers_only.html.twig
       actions:
         main:
           create:
@@ -43,6 +38,3 @@ sylius_grid:
         enabled:
           type: boolean
           label: smartarget_smartarget_whatsapp_contact_us.ui.form.enabled
-        customersOnly:
-          type: boolean
-          label: smartarget_smartarget_whatsapp_contact_us.ui.form.customers_only
