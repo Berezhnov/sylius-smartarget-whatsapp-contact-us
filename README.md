@@ -22,14 +22,19 @@ This plugin adds Whatsapp button on your sylius website. You can configure whats
     composer require smartarget/sylius-smartarget-whatsapp-contact-us-plugin --no-scripts
     ```
 
-2. Create config/packages/smartarget_sylius_smartarget_whatsapp_contact_us_plugin.yaml file with content
+2. Add to config/bundles.php
+    ```
+    Smartarget\SyliusSmartargetWhatsappContactUsPlugin\SmartargetSyliusSmartargetWhatsappContactUsPlugin::class => ['all' => true]
+    ```
+
+3. Create config/packages/smartarget_sylius_smartarget_whatsapp_contact_us_plugin.yaml file with content
 
     ```yaml
     imports:
         - { resource: "@SmartargetSyliusSmartargetWhatsappContactUsPlugin/Resources/config/config.yaml" }
     ```
 
-3. Create config/routes/smartarget_sylius_smartarget_whatsapp_contact_us_plugin.yaml file with content
+4. Create config/routes/smartarget_sylius_smartarget_whatsapp_contact_us_plugin.yaml file with content
 
     ```yaml
    smartarget_sylius_smartarget_whatsapp_contact_us_admin:
@@ -37,14 +42,14 @@ This plugin adds Whatsapp button on your sylius website. You can configure whats
        prefix: /admin
     ```
  
-4. Generate & Run Doctrine migrations
+5. Generate & Run Doctrine migrations
 
     ```
     ./bin/console doctrine:migration:diff
     ./bin/console doctrine:migration:migrate
     ```
 
-5. Clear cache
+6. Clear cache
 
     ```bash
     bin/console cache:clear
